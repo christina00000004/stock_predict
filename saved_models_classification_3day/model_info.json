@@ -1,0 +1,30 @@
+{
+  "model_type": "ClassificationStockPredictor",
+  "description": "三分类股票预测模型（涨/跌/平）- 3天窗口",
+  "input_features": 6,
+  "embedding_dim": 768,
+  "hidden_dim": 128,
+  "num_classes": 3,
+  "context_window": 3,
+  "label_type": "3day_avg",
+  "classification_thresholds": {
+    "up": 1.0,
+    "down": -1.0,
+    "flat": [
+      -1.0,
+      1.0
+    ]
+  },
+  "class_names": [
+    "涨",
+    "跌",
+    "平"
+  ],
+  "class_descriptions": [
+    "3天平均收益 > 1%",
+    "3天平均收益 < -1%",
+    "3天平均收益在 -1% 到 1% 之间"
+  ],
+  "training_date": "2025-08-02 08:38:23",
+  "model_parameters": 2752771
+}

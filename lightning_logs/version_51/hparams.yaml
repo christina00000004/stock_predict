@@ -1,0 +1,16 @@
+d_emb: 768
+d_head: 32
+d_hidden: 128
+dropout: 0.3
+feature_map: SMReg
+ignore_list: null
+lr: 5.0e-05
+max_ids: 87
+mode: 0
+n_blocks: 4
+n_features: 9
+n_head: 4
+rotary_emb_list:
+- 2
+use_linear_att: true
+weight_decay: 0.0001

@@ -1,0 +1,19 @@
+d_emb: 768
+d_head: 16
+d_hidden: 128
+dropout: 0.3
+feature_map: SMReg
+focal_alpha: 1.0
+focal_gamma: 2.0
+ignore_list: null
+lr: 3.0e-05
+max_ids: 87
+mode: 0
+n_blocks: 6
+n_features: 6
+n_head: 8
+rotary_emb_list:
+- 2
+use_focal_loss: true
+use_linear_att: true
+weight_decay: 0.0001

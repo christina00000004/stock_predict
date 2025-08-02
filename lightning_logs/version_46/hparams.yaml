@@ -1,0 +1,35 @@
+d_emb: 768
+d_head: 8
+d_hidden: 48
+dropout: 0.19056468940180654
+feature_map: SMReg
+ignore_list: null
+lr: !!python/object/apply:numpy.core.multiarray.scalar
+- &id001 !!python/object/apply:numpy.dtype
+  args:
+  - f8
+  - false
+  - true
+  state: !!python/tuple
+  - 3
+  - <
+  - null
+  - null
+  - null
+  - -1
+  - -1
+  - 0
+- !!binary |
+  lE9Sp86g2j4=
+max_ids: 87
+mode: 0
+n_blocks: 7
+n_features: 6
+n_head: 6
+rotary_emb_list:
+- 2
+use_linear_att: true
+weight_decay: !!python/object/apply:numpy.core.multiarray.scalar
+- *id001
+- !!binary |
+  JlwKWiG+DD8=

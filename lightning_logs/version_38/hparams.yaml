@@ -1,0 +1,21 @@
+batch_size: 16
+context_window: 10
+d_emb: 768
+d_head: 16
+d_hidden: 128
+data_path: D:/Multimodal-Stock-Prediction2
+dropout: 0.3
+embedding_threshold: 0.0
+feature_map: SMReg
+ignore_list: null
+label_method: original
+lr: 5.0e-05
+max_ids: 87
+mode: 0
+n_blocks: 6
+n_features: 6
+n_head: 8
+rotary_emb_list:
+- 2
+use_linear_att: true
+weight_decay: 0.0001
